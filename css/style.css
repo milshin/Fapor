@@ -332,10 +332,15 @@ button:hover{
     font-weight: 400;
     font-size: 11px;
     color: #b5a263;
+    border-radius: 50%;
 }
-button:active{
-    background-color: red!important;
+.owl-dots button span:hover{
+    content: "";
+    background-color: red;
 }
+/*button:active{*/
+/*    background-color: red!important;*/
+/*}*/
 
 
 
