@@ -326,7 +326,9 @@ button:hover{
 }
 .owl-dot{
     margin: 0 26px;
+    width: 15px;
 }
+
 .owl-dot span{
     font-family: 'Font Awesome 5 Free', serif;
     font-weight: 400;
@@ -336,7 +338,7 @@ button:hover{
 }
 .owl-dots button span:hover{
     content: "";
-    background-color: red;
+    background-color: #8b8d90;
 }
 
 .owl-dot span:before{
