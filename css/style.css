@@ -338,11 +338,6 @@ button:hover{
     content: "";
     background-color: red;
 }
-/*button:active{*/
-/*    background-color: red!important;*/
-/*}*/
-
-
 
 .owl-dot span:before{
     content: "\f192";
