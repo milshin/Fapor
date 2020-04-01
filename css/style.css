@@ -51,7 +51,7 @@ header nav ul li:hover a:after{
     margin-bottom: 122px;
 }
 
-h1{
+section h1{
     font-family: 'Raleway', serif;
     font-weight: 700;
     font-size: 31px;
@@ -222,7 +222,7 @@ footer{
     float: right;
     margin-left: 65px;
 }
-input{
+footer input{
     width: 100%;
     margin-top: 19px;
     line-height: 11px;
@@ -327,6 +327,7 @@ button:hover{
 .owl-dot{
     margin: 0 26px;
     width: 15px;
+    outline: none;
 }
 
 .owl-dot span{
@@ -336,6 +337,7 @@ button:hover{
     color: #b5a263;
     border-radius: 50%;
 }
+
 .owl-dots button span:hover{
     content: "";
     background-color: #8b8d90;
@@ -345,4 +347,150 @@ button:hover{
     content: "\f192";
     color: #b5a263;
 }
+.accordion .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header
+.ui-state-default, .ui-button, html
+.ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border: none;
+    border-radius: 0;
+    background-color: #fce7f2;
+    color: #860da6;
+}
+.accordion .ui-accordion .ui-accordion-header{
+    padding: 15px 0 15px 17px;
+    font-size: 22px;
+    outline: none;
+}
+.accordion .ui-widget-content, .ui-state-active{
+    background-color: #fef5fa;
+    border: none;
+}
+.accordion .ui-accordion .ui-accordion-header:before{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 4px;
+    position: relative;
+    top: -5px;
+    background-color: #860da6;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.accordion .ui-icon{
+    position: absolute;
+    right: 39px;
+    width: 27px;
+    height: 27px;
+    background-position: inherit;
+    background-image: none;
+    text-indent: 0;
+    font-family: 'Font Awesome 5 Free', serif;
+    font-weight: 900!important;
+    text-align: right;
+    top: 21px;
+}
+.accordion .ui-icon:after{
+    content: "\f054";
+}
+.accordion .ui-accordion .ui-accordion-header.ui-state-hover span{
+    background-image: none;
+}
+.accordion .ui-accordion .ui-accordion-header.ui-state-active .ui-icon{
+    transform: rotate(90deg);
+}
+.ui-dialog{
+    max-width: 750px!important;
+    width: 100%!important;
+    padding: 0;
 
+}
+.ui-dialog .ui-dialog-title{
+    color: white;
+    font-size: 24px;
+    padding: 41px 0;
+    margin: 0;
+    width: 100%;
+}
+.ui-dialog .ui-dialog-content{
+    padding: 0;
+
+}
+.ui-corner-all{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.ui-dialog-titlebar{
+   border-radius: 0;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active,
+a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover,
+.ui-dialog .ui-dialog-titlebar-close{
+    background-color: black;
+}
+.ui-widget.ui-widget-content, .ui-widget-header{
+    border: none;
+}
+
+.ui-draggable .ui-dialog-titlebar{
+    text-align: center;
+    background-color: black;
+    padding: 0;
+}
+.mail{
+    position: relative;
+    padding-bottom: 166px;
+}
+.mail label{
+    display: inline-block;
+    text-align: center;
+    max-width: 144px;
+    font-size: 22px;
+    margin: 43px 52px 50px 84px;
+}
+.mail input{
+    position: absolute;
+    top: 40px;
+    width: 384px;
+    height: 60px;
+    font-size: 24px;
+    color: black;
+    border: solid 1px #b7b7b7;
+    border-radius: 2px;
+    background-color: white;
+}
+.mail button{
+    display: block;
+    margin: auto;
+    width: 528px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 60px;
+    border: none;
+    border-radius: 2px;
+    background-color: #d5d5d5;
+    cursor: pointer;
+}
+.mail h1{
+    margin: 30px 0;
+    text-align: center;
+    color: #363636;
+    font-size: 22px;
+}
+.mail a{
+    display: block;
+    margin: auto;
+    width: 528px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    background-color: #557bcc;
+}
+.mail a i{
+    font-size: 22px;
+    padding-right: 16px;
+}
